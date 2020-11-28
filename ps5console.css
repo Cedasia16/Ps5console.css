@@ -1,0 +1,123 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+img {
+  width: 200px;
+}
+
+
+#container {
+  width: 100vw;
+  height: 100vh;
+  background: #dfdfdf;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#card {
+  width: 300px;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 5px 40px -20px rgba(0,0,0,.4);
+}
+
+header {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+#GamestopLogo {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  margin-right: 10px;
+}
+
+#shoe {
+  width: 300px;
+}
+
+#description {
+  padding: 10px;
+}
+
+.faded {
+  opacity: .5;
+}
+
+.subhead {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+#description {
+  margin-top: 10px;
+}
+
+#retail {
+  width: 80%;
+  display: inline-block;
+}
+
+#location {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+#location img {
+  margin-right: 5px;
+  width: 20px;
+}
+
+#tags {
+  padding: 10px;
+}
+
+#tags ul {
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+  padding: 10px;
+  background: rgba(0,255,0,.2);
+  margin-right: 5px;
+  border-radius: 5px;
+  font-weight: bold;
+  color: black;
+}
+
+footer {
+  padding: 10px;
+  background: #efefefef;
+}
+
+footer p:first-child {
+  font-weight: bold;
+  margin: 10px 0;
+  opacity: .7;
+}
+
+footer p.faded {
+  font-size: 14px;
+  line-height: 1.5;
+}
+.darken {
+  background-image:
+  
+
+
+
+
+
+
